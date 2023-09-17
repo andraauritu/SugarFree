@@ -15,7 +15,7 @@ session_start();
 </head>
 <body>
 <nav class="navbar navbar-dark navbar-expand-md p-0 sticky-top " id="mainNavbarInRecipes">
-      <a href="homepage.php" class="navbar-brand">
+      <a href="index.php" class="navbar-brand">
         <img src="images/logo.png" alt="logo" id="imgLogo" class="img-fluid px-2">
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
@@ -23,7 +23,7 @@ session_start();
       </button>
       <div class="collapse navbar-collapse" id="navLinks">
         <ul class="navbar-nav">
-          <li class="nav-item"><a href="homepage.php" class=" nav-link" >Home</a></li>
+          <li class="nav-item"><a href="index.php" class=" nav-link" >Home</a></li>
           <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle"  role="button" data-toggle="dropdown" href="recipes.php">
                       Recipes
